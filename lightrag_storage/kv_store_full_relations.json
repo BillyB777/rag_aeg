@@ -25742,5 +25742,189 @@
     "create_time": 1755426458,
     "update_time": 1755426458,
     "_id": "doc-123be1a1888ac2bc3068f9e3ca49d471"
+  },
+  "doc-3119cf6a552134a0d0ba22b01a9d469f": {
+    "relation_pairs": [
+      [
+        "CoEvolution Project",
+        "Work Packages"
+      ],
+      [
+        "CoEvolution Project",
+        "Exploitation Plan"
+      ],
+      [
+        "AEGIS",
+        "Planned Dissemination and Communication Activities"
+      ],
+      [
+        "CoEvolution",
+        "Security Professionals and Researchers"
+      ],
+      [
+        "CoEvolution Project",
+        "ISI"
+      ],
+      [
+        "AVL",
+        "TID"
+      ],
+      [
+        "CoEvolution",
+        "Technology Companies"
+      ],
+      [
+        "Active Dissemination & Mid-term Assessment",
+        "CoEvolution"
+      ],
+      [
+        "CoEvolution",
+        "Industry and Business Leaders"
+      ],
+      [
+        "AEGIS",
+        "CoEvolution Project"
+      ],
+      [
+        "AEGIS",
+        "Dissemination and Communication Toolkit"
+      ],
+      [
+        "CoEvolution",
+        "Software and Hardware Vendors"
+      ],
+      [
+        "1st InfoDay (Webinar)",
+        "CoEvolution Project"
+      ],
+      [
+        "AEGIS",
+        "ICCS"
+      ],
+      [
+        "CoEvolution",
+        "Government and Regulatory Bodies"
+      ],
+      [
+        "CoEvolution Project",
+        "Dissemination and Communication Strategy"
+      ],
+      [
+        "CoEvolution Project",
+        "UNICA"
+      ],
+      [
+        "CoEvolution Project",
+        "DIE"
+      ],
+      [
+        "AVL",
+        "CoEvolution Project"
+      ],
+      [
+        "AEGIS",
+        "CoEvolution"
+      ],
+      [
+        "AI Researchers and Developers",
+        "CoEvolution"
+      ],
+      [
+        "CoEvolution Project",
+        "Dissemination Tools and Techniques"
+      ],
+      [
+        "CoEvolution Project",
+        "SIE"
+      ],
+      [
+        "Dissemination & Communication Strategy",
+        "Outreach Materials"
+      ],
+      [
+        "CoEvolution",
+        "Metrics and Performance Indicators"
+      ],
+      [
+        "CoEvolution Project",
+        "Plan for Impact Delivery"
+      ],
+      [
+        "CoEvolution Project",
+        "Monitoring and Evaluation Framework"
+      ],
+      [
+        "CoEvolution",
+        "Foundation Phase"
+      ],
+      [
+        "CoEvolution",
+        "Dissemination & Communication Strategy"
+      ],
+      [
+        "CoEvolution",
+        "Policy Makers"
+      ],
+      [
+        "AEGIS",
+        "UNICA"
+      ],
+      [
+        "CoEvolution Project",
+        "Online Training Tutorial"
+      ],
+      [
+        "Key Performance Indicators (KPIs)",
+        "Plan for Impact Delivery"
+      ],
+      [
+        "Final Impact Report",
+        "Knowledge Transfer & Impact Maximization"
+      ],
+      [
+        "CoEvolution",
+        "Knowledge Transfer & Impact Maximization"
+      ],
+      [
+        "CoEvolution Project",
+        "CoEvolution Website"
+      ],
+      [
+        "Communication Tools",
+        "Dissemination & Communication Strategy"
+      ],
+      [
+        "CoEvolution Project",
+        "ICCS"
+      ],
+      [
+        "1st Press Release",
+        "CoEvolution Project"
+      ],
+      [
+        "CoEvolution Project",
+        "Technical Workshop"
+      ],
+      [
+        "CoEvolution",
+        "End Users of AI Systems and General Public"
+      ],
+      [
+        "CoEvolution",
+        "Roles & Responsibilities"
+      ],
+      [
+        "Active Dissemination & Mid-term Assessment",
+        "First Impact Analysis"
+      ],
+      [
+        "CoEvolution",
+        "Feedback Mechanisms"
+      ]
+    ],
+    "count": 44,
+    "create_time": 1756144378,
+    "update_time": 1756144378,
+    "_id": "doc-3119cf6a552134a0d0ba22b01a9d469f"
   }
 }

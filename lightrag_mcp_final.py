@@ -18,8 +18,13 @@ from pathlib import Path
 # Add current directory to path
 sys.path.append(os.path.dirname(__file__))
 
-# Set OpenAI API key for LightRAG functions
-os.environ["OPENAI_API_KEY"] = "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"
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv()
+
+# Check for API key
+if not os.getenv("OPENAI_API_KEY"):
+    raise ValueError("OPENAI_API_KEY not found in environment variables. Please set it in .env file.")
 
 # Import LightRAG components with required functions
 from lightrag import LightRAG, QueryParam
@@ -32,18 +37,24 @@ from mcp.server import NotificationOptions, Server
 import mcp.server.stdio
 
 # Configure logging
-logging.basicConfig(level=logging.ERROR)
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("lightrag-mcp")
 
+# Debug startup
+logger.info("=== LightRAG MCP Server Starting ===")
+logger.info(f"Working directory: {os.getcwd()}")
+logger.info(f"Storage directory: {os.getenv('LIGHTRAG_STORAGE_DIR', './lightrag_storage')}")
+logger.info(f"API key present: {'Yes' if os.getenv('OPENAI_API_KEY') else 'No'}")
+logger.info(f"{os.getenv('OPENAI_API_KEY')}")
 class LightRAGQueryEngine:
-    def __init__(self, working_dir: str = "./lightrag_storage"):
-        self.working_dir = working_dir
+    def __init__(self, working_dir: str = None):
+        self.working_dir = working_dir or os.getenv("LIGHTRAG_STORAGE_DIR", "./lightrag_storage")
         self.rag = None
         self.initialized = False
         
         # Check if LightRAG storage exists
-        if not os.path.exists(working_dir):
-            logger.error(f"LightRAG storage not found: {working_dir}")
+        if not os.path.exists(self.working_dir):
+            logger.error(f"LightRAG storage not found: {self.working_dir}")
     
     async def initialize(self):
         """Initialize LightRAG instance with required functions."""
@@ -151,13 +162,13 @@ async def handle_list_tools() -> list[types.Tool]:
         return [
             types.Tool(
                 name="retrieval",
-                description="Search the CoEvolution project knowledge base using LightRAG. Returns relevant context from indexed documents.",
+                description="Search the project knowledge base using LightRAG. Returns relevant context from indexed documents.",
                 inputSchema={
                     "type": "object",
                     "properties": {
                         "query": {
                             "type": "string",
-                            "description": "Question or search terms about the CoEvolution project"
+                            "description": "Question or search terms about the project documents"
                         },
                         "mode": {
                             "type": "string",
@@ -208,7 +219,7 @@ async def handle_call_tool(name: str, arguments: dict) -> list[types.TextContent
                     result = await query_engine.query_context_only(query, mode)
                     response_type = "Context Only"
                 
-                response = f"**CoEvolution LightRAG Search**\n\n"
+                response = f"**Project LightRAG Search**\n\n"
                 response += f"**Query**: {query}\n"
                 response += f"**Mode**: {mode}\n"
                 response += f"**Type**: {response_type}\n\n"

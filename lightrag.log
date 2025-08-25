@@ -1,0 +1,194 @@
+2025-08-25 20:51:53,843 - lightrag - INFO - [_] Loaded graph from ./lightrag_storage/graph_chunk_entity_relation.graphml with 3084 nodes, 4601 edges
+2025-08-25 20:51:54,277 - lightrag - WARNING - Rerank is enabled but no rerank_model_func provided. Reranking will be skipped.
+2025-08-25 20:51:54,301 - lightrag - INFO - [_] Process 15833 KV load full_docs with 32 records
+2025-08-25 20:51:54,318 - lightrag - INFO - [_] Process 15833 KV load text_chunks with 623 records
+2025-08-25 20:51:54,322 - lightrag - INFO - [_] Process 15833 KV load full_entities with 32 records
+2025-08-25 20:51:54,328 - lightrag - INFO - [_] Process 15833 KV load full_relations with 32 records
+2025-08-25 20:51:54,522 - lightrag - INFO - [_] Process 15833 KV load llm_response_cache with 2935 records
+2025-08-25 20:51:54,534 - lightrag - INFO - [_] Process 15833 doc status load doc_status with 33 records
+2025-08-25 20:51:54,596 - lightrag - INFO - Stored 1 new unique documents
+2025-08-25 20:51:54,597 - lightrag - INFO - Inconsistent document entries found: 1
+2025-08-25 20:51:54,597 - lightrag - INFO - Deleted inconsistent entry: doc-200e1f75f87a4e67266ba1a98a0fb0d2 (unknown_source)
+2025-08-25 20:51:54,598 - lightrag - INFO - Data consistency cleanup completed: successfully deleted 1 inconsistent entries, preserved 0 failed documents
+2025-08-25 20:51:54,598 - lightrag - INFO - Processing 1 document(s)
+2025-08-25 20:51:54,599 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-08-25 20:51:54,599 - lightrag - INFO - Processing d-id: doc-3119cf6a552134a0d0ba22b01a9d469f
+2025-08-25 20:51:54,604 - lightrag - INFO - limit_async: 8 new workers initialized
+2025-08-25 20:51:55,507 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-08-25 20:52:02,235 - lightrag - INFO -  == LLM cache == saving: default:extract:0162a1b27360febe26d9d9475aba249b
+2025-08-25 20:52:05,106 - lightrag - INFO -  == LLM cache == saving: default:extract:5a13545b70f07c947f08230fcf455502
+2025-08-25 20:52:08,231 - lightrag - INFO -  == LLM cache == saving: default:extract:6f5e97add86cf954a4425419674d6973
+2025-08-25 20:52:09,055 - lightrag - INFO -  == LLM cache == saving: default:extract:8b4f3d9b7e6656b32cb3c35a52d8f4a4
+2025-08-25 20:52:09,057 - lightrag - INFO - Chunk 1 of 4 extracted 9 Ent + 8 Rel
+2025-08-25 20:52:09,104 - lightrag - INFO -  == LLM cache == saving: default:extract:aaa73a8d5633af442421ecb6e9690fe7
+2025-08-25 20:52:10,438 - lightrag - INFO -  == LLM cache == saving: default:extract:da3108e83c891db837b31d9e642997f9
+2025-08-25 20:52:10,439 - lightrag - INFO - Chunk 2 of 4 extracted 10 Ent + 9 Rel
+2025-08-25 20:52:14,966 - lightrag - INFO -  == LLM cache == saving: default:extract:cd9a17c0aca7202085ce5a4819597c05
+2025-08-25 20:52:14,968 - lightrag - INFO - Chunk 3 of 4 extracted 14 Ent + 13 Rel
+2025-08-25 20:52:21,695 - lightrag - INFO -  == LLM cache == saving: default:extract:66d20bd4a979f1d1d901636986feb3d5
+2025-08-25 20:52:21,696 - lightrag - INFO - Chunk 4 of 4 extracted 24 Ent + 15 Rel
+2025-08-25 20:52:21,697 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-08-25 20:52:21,698 - lightrag - INFO - Phase 1: Processing 53 entities from doc-3119cf6a552134a0d0ba22b01a9d469f (async: 8)
+2025-08-25 20:52:21,699 - lightrag - INFO - LLM merge N: CoEvolution Project | 2+3
+2025-08-25 20:52:21,700 - lightrag - INFO - LLM merge N: AEGIS | 3+1
+2025-08-25 20:52:21,701 - lightrag - INFO - Merge N: Plan for Impact Delivery | 1+2
+2025-08-25 20:52:21,702 - lightrag - INFO - Merge N: Key Performance Indicators (KPIs) | 1+1
+2025-08-25 20:52:21,702 - lightrag - INFO - LLM merge N: Exploitation Plan | 1+3
+2025-08-25 20:52:22,366 - lightrag - INFO - Merge N: Work Packages | 1+1
+2025-08-25 20:52:22,415 - lightrag - INFO - Merge N: CoEvolution | 2+1
+2025-08-25 20:52:22,928 - lightrag - INFO - Merge N: First Impact Analysis | 1+2
+2025-08-25 20:52:22,964 - lightrag - INFO - Merge N: Final Impact Report | 1+2
+2025-08-25 20:52:23,413 - lightrag - INFO - Merge N: AI Researchers and Developers | 1+2
+2025-08-25 20:52:23,661 - lightrag - INFO - Merge N: Security Professionals and Researchers | 1+1
+2025-08-25 20:52:23,801 - lightrag - INFO - LLM merge N: Government and Regulatory Bodies | 1+3
+2025-08-25 20:52:24,138 - lightrag - INFO -  == LLM cache == saving: default:extract:d76eb766c47ebe2f52c52f57605d296b
+2025-08-25 20:52:24,174 - lightrag - INFO - Merge N: Technology Companies | 1+1
+2025-08-25 20:52:24,175 - lightrag - INFO - Merge N: Software and Hardware Vendors | 1+1
+2025-08-25 20:52:24,252 - lightrag - INFO - Merge N: Industry and Business Leaders | 1+2
+2025-08-25 20:52:24,528 - lightrag - INFO - LLM merge N: End Users of AI Systems and General Public | 1+3
+2025-08-25 20:52:24,531 - lightrag - INFO - Merge N: Policy Makers | 1+1
+2025-08-25 20:52:24,974 - lightrag - INFO - Merge N: ISI | 1+1
+2025-08-25 20:52:24,975 - lightrag - INFO - Merge N: AVL | 1+1
+2025-08-25 20:52:26,415 - lightrag - INFO - Merge N: ICCS | 1+1
+2025-08-25 20:52:26,456 - lightrag - INFO - Merge N: UNICA | 1+1
+2025-08-25 20:52:26,512 - lightrag - INFO - Merge N: SIE | 1+1
+2025-08-25 20:52:26,724 - lightrag - INFO - Merge N: TID | 1+1
+2025-08-25 20:52:26,758 - lightrag - INFO - Merge N: UNIPI | 1+1
+2025-08-25 20:52:26,792 - lightrag - INFO - Merge N: SLC | 1+1
+2025-08-25 20:52:26,874 - lightrag - INFO - Merge N: AVI | 1+1
+2025-08-25 20:52:27,169 - lightrag - INFO - Merge N: DIE | 1+1
+2025-08-25 20:52:27,229 - lightrag - INFO - Merge N: CBRL | 1+1
+2025-08-25 20:52:27,415 - lightrag - INFO - Merge N: STS | 1+1
+2025-08-25 20:52:27,483 - lightrag - INFO - Merge N: BEVD | 1+1
+2025-08-25 20:52:28,301 - lightrag - INFO -  == LLM cache == saving: default:extract:2a94caac8d2cf387994d2c159208d393
+2025-08-25 20:52:28,386 - lightrag - INFO -  == LLM cache == saving: default:extract:b65fa37cea485622a01e8ebde93e303b
+2025-08-25 20:52:28,656 - lightrag - INFO -  == LLM cache == saving: default:extract:4f000971247e2eab6e8cdfb07e0ea12a
+2025-08-25 20:52:34,909 - lightrag - INFO -  == LLM cache == saving: default:extract:9d38c4116b5319b3d8a7b0bae9df96b0
+2025-08-25 20:52:35,507 - lightrag - INFO - Phase 2: Processing 44 relations from doc-3119cf6a552134a0d0ba22b01a9d469f (async: 8)
+2025-08-25 20:52:35,903 - lightrag - INFO - LLM merge E: AEGIS - CoEvolution Project | 2+2
+2025-08-25 20:52:38,849 - lightrag - INFO -  == LLM cache == saving: default:extract:346cb3ff2631162cf953bef35569e2f7
+2025-08-25 20:52:39,049 - lightrag - INFO - LLM merge E: AI Researchers and Developers - CoEvolution | 1+3
+2025-08-25 20:52:40,981 - lightrag - INFO - Merge E: CoEvolution Project - Work Packages | 1+1
+2025-08-25 20:52:42,216 - lightrag - INFO -  == LLM cache == saving: default:extract:05102732ef8a99851ea70047a1fc6f1d
+2025-08-25 20:52:42,620 - lightrag - INFO - Merge E: AEGIS - CoEvolution | 1+1
+2025-08-25 20:52:43,072 - lightrag - INFO - Merge E: CoEvolution - Security Professionals and Researchers | 1+2
+2025-08-25 20:52:44,341 - lightrag - INFO - Merge E: CoEvolution - Government and Regulatory Bodies | 1+1
+2025-08-25 20:52:44,650 - lightrag - INFO - LLM merge E: CoEvolution - Technology Companies | 1+3
+2025-08-25 20:52:45,427 - lightrag - INFO - Merge E: CoEvolution Project - ISI | 1+1
+2025-08-25 20:52:45,806 - lightrag - INFO - LLM merge E: AVL - CoEvolution Project | 1+3
+2025-08-25 20:52:48,201 - lightrag - INFO -  == LLM cache == saving: default:extract:fdbcba86f344fa9204a279ee05061d00
+2025-08-25 20:52:48,287 - lightrag - INFO -  == LLM cache == saving: default:extract:5575f9b493cc88cefeea8831e799aef4
+2025-08-25 20:52:48,554 - lightrag - INFO - Merge E: CoEvolution - Software and Hardware Vendors | 1+1
+2025-08-25 20:52:49,139 - lightrag - INFO - Merge E: CoEvolution - Industry and Business Leaders | 1+1
+2025-08-25 20:52:49,522 - lightrag - INFO - Merge E: CoEvolution - End Users of AI Systems and General Public | 1+2
+2025-08-25 20:52:49,913 - lightrag - INFO - LLM merge E: CoEvolution - Policy Makers | 1+3
+2025-08-25 20:52:50,437 - lightrag - INFO - Merge E: AEGIS - UNICA | 1+1
+2025-08-25 20:52:51,176 - lightrag - INFO - Merge E: CoEvolution Project - ICCS | 1+2
+2025-08-25 20:52:51,535 - lightrag - INFO - LLM merge E: CoEvolution Project - UNICA | 1+3
+2025-08-25 20:52:54,019 - lightrag - INFO -  == LLM cache == saving: default:extract:cc9d43659825c579cf3cd1627495c02d
+2025-08-25 20:52:54,166 - lightrag - INFO -  == LLM cache == saving: default:extract:31f54d7d09413cec3627923fbecd4539
+2025-08-25 20:52:54,389 - lightrag - INFO - Merge E: CoEvolution Project - SIE | 1+1
+2025-08-25 20:52:54,748 - lightrag - INFO - LLM merge E: CoEvolution Project - DIE | 1+3
+2025-08-25 20:52:58,093 - lightrag - INFO -  == LLM cache == saving: default:extract:25939464c3afac595638dc9342721767
+2025-08-25 20:52:58,442 - lightrag - INFO - Phase 3: Updating final 53(53+0) entities and  44 relations from doc-3119cf6a552134a0d0ba22b01a9d469f
+2025-08-25 20:52:58,444 - lightrag - INFO - Completed merging: 53 entities, 0 added entities, 44 relations
+2025-08-25 20:53:00,115 - lightrag - INFO - [_] Writing graph with 3107 nodes, 4627 edges
+2025-08-25 20:53:00,357 - lightrag - INFO - In memory DB persist to disk
+2025-08-25 20:53:00,358 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-08-25 20:53:00,359 - lightrag - INFO - Document processing pipeline completed
+2025-08-25 20:53:04,152 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:ce58a22dfc56b522375e782d7a9149cb
+2025-08-25 20:53:04,154 - lightrag - INFO - Process 15833 building query context...
+2025-08-25 20:53:04,157 - lightrag - INFO - Query nodes: Objectives, Goals, Scope, Details, top_k: 40, cosine: 0.2
+2025-08-25 20:53:04,507 - lightrag - INFO - Local query: 40 entites, 169 relations
+2025-08-25 20:53:04,508 - lightrag - INFO - Query edges: Project, Main concept, Overview, top_k: 40, cosine: 0.2
+2025-08-25 20:53:05,129 - lightrag - INFO - Global query: 47 entites, 40 relations
+2025-08-25 20:53:05,150 - lightrag - INFO - Truncated KG query results: 66 entities, 125 relations
+2025-08-25 20:53:05,489 - lightrag - WARNING - Vector similarity chunk selection: found 4 but expecting 517
+2025-08-25 20:53:05,491 - lightrag - WARNING - No entity-related chunks selected by vector similarity, falling back to WEIGHT method
+2025-08-25 20:53:05,495 - lightrag - INFO - Selecting 198 from 517 entity-related chunks by weighted polling
+2025-08-25 20:53:05,498 - lightrag - INFO - Find 12 additional chunks in 12 relations (79 duplicated chunks removed)
+2025-08-25 20:53:05,814 - lightrag - WARNING - Vector similarity chunk selection: no vectors retrieved from chunks_vdb
+2025-08-25 20:53:05,816 - lightrag - WARNING - No relation-related chunks selected by vector similarity, falling back to WEIGHT method
+2025-08-25 20:53:05,816 - lightrag - INFO - Selecting 12 from 12 relation-related chunks by weighted polling
+2025-08-25 20:53:05,817 - lightrag - INFO - Round-robin merged total chunks from 210 to 210
+2025-08-25 20:53:05,827 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-08-25 20:53:05,832 - lightrag - INFO - Final context: 66 entities, 125 relations, 8 chunks
+2025-08-25 20:53:05,832 - lightrag - INFO - chunks: E4/1 R1/1 E4/2 R1/2 E1/3 R6/3 E4/4 R12/4
+2025-08-25 20:53:14,097 - lightrag - INFO -  == LLM cache == saving: hybrid:query:9d2164aba7b3208f663b50ffad915d60
+2025-08-25 20:53:18,729 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:bd32008c5b6b4494c24de94d1fa2cf37
+2025-08-25 20:53:18,731 - lightrag - INFO - Process 15833 building query context...
+2025-08-25 20:53:18,732 - lightrag - INFO - Query nodes: Organizations, Stakeholders, Roles, Responsibilities, top_k: 40, cosine: 0.2
+2025-08-25 20:53:19,488 - lightrag - INFO - Local query: 40 entites, 132 relations
+2025-08-25 20:53:19,502 - lightrag - INFO - Query edges: Project partners, Collaboration, Partnerships, top_k: 40, cosine: 0.2
+2025-08-25 20:53:20,019 - lightrag - INFO - Global query: 41 entites, 40 relations
+2025-08-25 20:53:20,052 - lightrag - INFO - Truncated KG query results: 74 entities, 122 relations
+2025-08-25 20:53:20,454 - lightrag - WARNING - Vector similarity chunk selection: found 4 but expecting 500
+2025-08-25 20:53:20,464 - lightrag - WARNING - No entity-related chunks selected by vector similarity, falling back to WEIGHT method
+2025-08-25 20:53:20,472 - lightrag - INFO - Selecting 222 from 500 entity-related chunks by weighted polling
+2025-08-25 20:53:20,486 - lightrag - INFO - Find 5 additional chunks in 4 relations (87 duplicated chunks removed)
+2025-08-25 20:53:20,876 - lightrag - WARNING - Vector similarity chunk selection: no vectors retrieved from chunks_vdb
+2025-08-25 20:53:20,877 - lightrag - WARNING - No relation-related chunks selected by vector similarity, falling back to WEIGHT method
+2025-08-25 20:53:20,877 - lightrag - INFO - Selecting 5 from 5 relation-related chunks by weighted polling
+2025-08-25 20:53:20,878 - lightrag - INFO - Round-robin merged total chunks from 227 to 227
+2025-08-25 20:53:20,887 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-08-25 20:53:20,892 - lightrag - INFO - Final context: 74 entities, 122 relations, 8 chunks
+2025-08-25 20:53:20,893 - lightrag - INFO - chunks: E3/1 R1/1 E7/2 R1/2 E7/3 R1/3 E7/4 R1/4
+2025-08-25 20:53:26,826 - lightrag - INFO -  == LLM cache == saving: hybrid:query:0a126b765842ac4ccfca25e96d9bb4b3
+2025-08-25 20:53:30,768 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:9046865cc1cd34b7a69f40ab92825b7f
+2025-08-25 20:53:30,769 - lightrag - INFO - Process 15833 building query context...
+2025-08-25 20:53:30,770 - lightrag - INFO - Query nodes: Specific objectives, Measurable outcomes, Project goals, Strategic aims, top_k: 40, cosine: 0.2
+2025-08-25 20:53:31,108 - lightrag - INFO - Local query: 40 entites, 113 relations
+2025-08-25 20:53:31,109 - lightrag - INFO - Query edges: Objectives, Goals, Intentions, top_k: 40, cosine: 0.2
+2025-08-25 20:53:31,759 - lightrag - INFO - Global query: 61 entites, 40 relations
+2025-08-25 20:53:31,775 - lightrag - INFO - Truncated KG query results: 72 entities, 124 relations
+2025-08-25 20:53:32,393 - lightrag - WARNING - Vector similarity chunk selection: found 3 but expecting 522
+2025-08-25 20:53:32,394 - lightrag - WARNING - No entity-related chunks selected by vector similarity, falling back to WEIGHT method
+2025-08-25 20:53:32,394 - lightrag - INFO - Selecting 216 from 522 entity-related chunks by weighted polling
+2025-08-25 20:53:32,396 - lightrag - INFO - Find 24 additional chunks in 21 relations (73 duplicated chunks removed)
+2025-08-25 20:53:32,814 - lightrag - WARNING - Vector similarity chunk selection: found 1 but expecting 24
+2025-08-25 20:53:32,816 - lightrag - WARNING - No relation-related chunks selected by vector similarity, falling back to WEIGHT method
+2025-08-25 20:53:32,816 - lightrag - INFO - Selecting 24 from 24 relation-related chunks by weighted polling
+2025-08-25 20:53:32,819 - lightrag - INFO - Round-robin merged total chunks from 240 to 240
+2025-08-25 20:53:32,830 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-08-25 20:53:32,835 - lightrag - INFO - Final context: 72 entities, 124 relations, 8 chunks
+2025-08-25 20:53:32,836 - lightrag - INFO - chunks: E5/1 R1/1 E4/2 R1/2 E3/3 R1/3 E4/4 R1/4
+2025-08-25 20:53:40,797 - lightrag - INFO -  == LLM cache == saving: hybrid:query:46b3f59ac609fb9af419dab2d3fbfdfd
+2025-08-25 20:53:45,017 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:956ce1fecffb7630b66d29b8d283498c
+2025-08-25 20:53:45,018 - lightrag - INFO - Process 15833 building query context...
+2025-08-25 20:53:45,019 - lightrag - INFO - Query nodes: Cost estimation, Funding, Deadline, Milestones, Resource allocation, top_k: 40, cosine: 0.2
+2025-08-25 20:53:45,312 - lightrag - INFO - Local query: 40 entites, 65 relations
+2025-08-25 20:53:45,314 - lightrag - INFO - Query edges: Project budget, Timeline, Project management, top_k: 40, cosine: 0.2
+2025-08-25 20:53:45,676 - lightrag - INFO - Global query: 61 entites, 40 relations
+2025-08-25 20:53:45,691 - lightrag - INFO - Truncated KG query results: 80 entities, 86 relations
+2025-08-25 20:53:46,111 - lightrag - WARNING - Vector similarity chunk selection: found 4 but expecting 490
+2025-08-25 20:53:46,113 - lightrag - WARNING - No entity-related chunks selected by vector similarity, falling back to WEIGHT method
+2025-08-25 20:53:46,115 - lightrag - INFO - Selecting 240 from 490 entity-related chunks by weighted polling
+2025-08-25 20:53:46,120 - lightrag - INFO - Find 1 additional chunks in 1 relations (55 duplicated chunks removed)
+2025-08-25 20:53:46,473 - lightrag - WARNING - Vector similarity chunk selection: no vectors retrieved from chunks_vdb
+2025-08-25 20:53:46,475 - lightrag - WARNING - No relation-related chunks selected by vector similarity, falling back to WEIGHT method
+2025-08-25 20:53:46,477 - lightrag - INFO - Selecting 1 from 1 relation-related chunks by weighted polling
+2025-08-25 20:53:46,478 - lightrag - INFO - Round-robin merged total chunks from 241 to 241
+2025-08-25 20:53:46,487 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-08-25 20:53:46,492 - lightrag - INFO - Final context: 80 entities, 86 relations, 10 chunks
+2025-08-25 20:53:46,493 - lightrag - INFO - chunks: E2/1 R1/1 E7/2 E3/3 E2/4 E2/5 E7/6 E5/7 E4/8 E4/9
+2025-08-25 20:53:53,218 - lightrag - INFO -  == LLM cache == saving: hybrid:query:2ce1c5245556bad900a79e382278c7ea
+2025-08-25 20:53:57,762 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:552108b797c98f50d38ec2df7a700d8d
+2025-08-25 20:53:57,763 - lightrag - INFO - Process 15833 building query context...
+2025-08-25 20:53:57,764 - lightrag - INFO - Query nodes: Outcomes, Milestones, Objectives, Timeline, Stakeholder expectations, top_k: 40, cosine: 0.2
+2025-08-25 20:53:58,163 - lightrag - INFO - Local query: 40 entites, 111 relations
+2025-08-25 20:53:58,167 - lightrag - INFO - Query edges: Key deliverables, Project management, Performance metrics, top_k: 40, cosine: 0.2
+2025-08-25 20:53:58,520 - lightrag - INFO - Global query: 54 entites, 40 relations
+2025-08-25 20:53:58,535 - lightrag - INFO - Truncated KG query results: 77 entities, 121 relations
+2025-08-25 20:53:58,838 - lightrag - WARNING - Vector similarity chunk selection: found 4 but expecting 456
+2025-08-25 20:53:58,839 - lightrag - WARNING - No entity-related chunks selected by vector similarity, falling back to WEIGHT method
+2025-08-25 20:53:58,840 - lightrag - INFO - Selecting 231 from 456 entity-related chunks by weighted polling
+2025-08-25 20:53:58,841 - lightrag - INFO - Find 1 additional chunks in 1 relations (71 duplicated chunks removed)
+2025-08-25 20:53:59,331 - lightrag - WARNING - Vector similarity chunk selection: no vectors retrieved from chunks_vdb
+2025-08-25 20:53:59,332 - lightrag - WARNING - No relation-related chunks selected by vector similarity, falling back to WEIGHT method
+2025-08-25 20:53:59,333 - lightrag - INFO - Selecting 1 from 1 relation-related chunks by weighted polling
+2025-08-25 20:53:59,333 - lightrag - INFO - Round-robin merged total chunks from 232 to 232
+2025-08-25 20:53:59,343 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-08-25 20:53:59,348 - lightrag - INFO - Final context: 77 entities, 121 relations, 8 chunks
+2025-08-25 20:53:59,349 - lightrag - INFO - chunks: E5/1 R1/1 E2/2 E2/3 E2/4 E6/5 E4/6 E4/7
+2025-08-25 20:54:07,195 - lightrag - INFO -  == LLM cache == saving: hybrid:query:f658fc181dd0ada56fc3a450d8e3cc37
+2025-08-25 20:54:09,724 - lightrag - INFO - Successfully finalized 10 storages
